@@ -14,7 +14,7 @@ This is a **pure HTML/CSS/JS** project — no build system, no npm, no framework
 
 ```
 BrainFit/
-├── Home.html                       # Landing page — hero, specialties, network model, ecosystem, FAQ, contact form
+├── index.html                       # Landing page — hero, specialties, network model, ecosystem, FAQ, contact form
 ├── About.html                      # Company story, leadership bios, values, integrated network
 ├── Veterans_CP.html                # Veterans & C&P page — recruits clinicians for federal evaluation work
 ├── Contracting.html                # Capability statement — federal contracting, NAICS codes, credentials
@@ -36,7 +36,7 @@ cd BrainFit
 python3 -m http.server 8080
 ```
 
-Then open [http://localhost:8080/Home.html](http://localhost:8080/Home.html) in your browser.
+Then open [http://localhost:8080/index.html](http://localhost:8080/index.html) in your browser.
 
 **VS Code Live Server extension** also works — right-click any `.html` file → _Open with Live Server_.
 
@@ -46,7 +46,7 @@ Then open [http://localhost:8080/Home.html](http://localhost:8080/Home.html) in 
 
 | Page             | URL                         | Purpose                                                                                                                                                      |
 | ---------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Home             | `/Home.html`                | Primary landing — hero, specialties tab panel, network model flow diagram, ecosystem SVG diagram, affiliate cards, coverage map, FAQ accordion, contact form |
+| Home             | `/index.html`                | Primary landing — hero, specialties tab panel, network model flow diagram, ecosystem SVG diagram, affiliate cards, coverage map, FAQ accordion, contact form |
 | About            | `/About.html`               | Company story, leadership (Dr. Shelton & Dr. Nguyen), values, integrated network (Brain Fit / Trinity Tree / Desert Recovery Centers), FAQ                   |
 | Veterans & C&P   | `/Veterans_CP.html`         | Recruits clinicians specifically for Compensation & Pension federal evaluation work; includes specialty cards, onboarding steps, FAQ, and application form   |
 | Contracting      | `/Contracting.html`         | Federal capability statement — NAICS codes, differentiators, core competencies, provider network stats, contract vehicles (SAM.gov, HIPAA, 42 CFR Part 2)    |
@@ -115,7 +115,7 @@ Always branch off `dev` for new features. Open a PR from your feature branch int
 
 | Date       | Change                                                                                                                                |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-06-02 | Removed hero grid overlay (`::before` CSS) from `Home.html` and `About.html` to match the clean hero background on `Veterans_CP.html` |
+| 2026-06-02 | Removed hero grid overlay (`::before` CSS) from `index.html` and `About.html` to match the clean hero background on `Veterans_CP.html` |
 | Earlier    | Google Sheets backend wired up for Contact and Veterans_CP forms                                                                      |
 | Earlier    | Added Contracting, Partner_and_Network, and Contact pages; removed standalone Ecosystem page                                          |
 
